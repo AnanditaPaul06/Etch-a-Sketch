@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    border:0;
+
+}
+header{
+    background-color: white;
+    text-align: center;
+    font-size:60px;
+    font-family: "Coral Pixels", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+#screen {
+    background-color: white;
+    border: 10px solid red;
+    height: 500px;
+    width: 500px;
+    margin:10px;
+    border-radius: 10px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.cell{
+    border:1px solid #D4D4D4;
+    background-color: white;
+}
+.menu{
+    margin: 10px;
+    border: 5px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 250px;
+    height:400px ;
+    padding: 5px;
+}
+button{
+    text-decoration: none;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+}
+main{
+    display:flex;
+    gap:100px;
+
+}
