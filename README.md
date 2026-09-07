@@ -7,7 +7,7 @@ basic java script project
 - 4. When I interact with a cell, it changes color.
 - 5. The user can choose the grid size.
 - 6. The user can choose a drawing color.
-- 7. The user can use random color when to lazy too pick a color.
+- 7. The user can use random color when too lazy to pick a color.
 - 8. The user can erase cells.
 - 9. The user can clear the entire board.
 ## What I Learned
