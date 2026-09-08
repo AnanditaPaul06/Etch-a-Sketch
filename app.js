@@ -45,6 +45,7 @@ sizeSlider.addEventListener("input", function() {
 });
 colorPicker.addEventListener("input", function() {
     color = colorPicker.value;
+    randomColor=false;
 });
 const eraser=document.getElementById("eraser");
 eraser.addEventListener("click",function(){
@@ -54,11 +55,14 @@ const clearScreen=document.getElementById("clear");
 clearScreen.addEventListener("click",function(){
     createGrid();
 })
-const random=document.getElementById("random");
-random.addEventListener("click",function random(){
+function random(){
     let rand1=Math.floor(Math.random()*256);
     let rand2=Math.floor(Math.random()*256);
     let rand3=Math.floor(Math.random()*256);
-    color=`rgb(${rand1},${rand2},${rand3})`;
+    return `rgb(${rand1},${rand2},${rand3})`;
+}
+const randomButton=document.getElementById("random");
+randomButton.addEventListener("click",function(){
+    randomColor=true;
 })
 createGrid();
