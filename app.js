@@ -50,6 +50,7 @@ colorPicker.addEventListener("input", function() {
 const eraser=document.getElementById("eraser");
 eraser.addEventListener("click",function(){
     color="white";
+    randomColor=false;
 })
 const clearScreen=document.getElementById("clear");
 clearScreen.addEventListener("click",function(){
